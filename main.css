@@ -1,9 +1,6 @@
 
 :root {
   --color-white: #f3f3f3;
-  --color-darkblue: #1b1b32;
-  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-  --color-green: #37af65;
 }
 
 *,
@@ -95,13 +92,6 @@ button {
   font-weight: 200;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
-
-.clue {
-  margin-left: 0.25rem;
-  font-size: 0.9rem;
-  color: #e4e4e4;
-}
-
 .text-center {
   text-align: center;
 }
@@ -109,8 +99,8 @@ button {
 /* form */
 
 form {
-  background: var(--color-darkblue-alpha);
-  padding: 2.5rem 0.625rem;
+  background:#008080;
+  padding: 2rem 0.625rem;
   border-radius: 0.25rem;
 }
 
@@ -163,7 +153,7 @@ form {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background: var(--color-green);
+  background: #005757;
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
